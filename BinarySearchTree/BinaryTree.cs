@@ -73,6 +73,7 @@ namespace BinarySearchTreeProgram
 
         public bool search(int data, Node<T> node)
         {
+            result = false;
 
             if (node == null)
             {

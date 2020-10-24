@@ -18,6 +18,8 @@ namespace BinarySearchTreeProgram
             binaryTree.addToData(95);
 
             binaryTree.display(binaryTree.getRoot());
+            Console.WriteLine("Element is present: "+ binaryTree.search(22, binaryTree.getRoot()));
+            Console.WriteLine("Element is present: " + binaryTree.search(100, binaryTree.getRoot()));
         }
     }
 }
